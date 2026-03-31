@@ -33,10 +33,10 @@ jobs:
           cache: pnpm
 
       - name: Install dependencies
-        run: pnpm install
+        run: npm ci
 
       - name: Build Astro site
-        run: pnpm build
+        run: npm run build
         env:
           ASTRO_SITE: https://Ghost-570.github.io
           ASTRO_BASE: /astro_proj_1
