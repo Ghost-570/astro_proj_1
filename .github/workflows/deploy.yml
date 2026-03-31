@@ -39,7 +39,7 @@ jobs:
         run: pnpm build
         env:
           ASTRO_SITE: https://Ghost-570.github.io
-          ASTRO_BASE: /jor-astro-1
+          ASTRO_BASE: /astro_proj_1
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
